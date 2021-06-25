@@ -29,6 +29,7 @@ RUN yum -y install rpm centos-release dnf-plugins-core \
       python3 \
       python3-pip \
       python3-pyyaml \
+      rsync \
  && yum clean all
 
 # Upgrade pip to latest version.
